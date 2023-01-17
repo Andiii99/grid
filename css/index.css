@@ -1,0 +1,181 @@
+.corp{
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-template-rows: repeat(14,1fr);
+}
+div{
+   border: 2px solid black;
+}
+.une{
+   background-color: whitesmoke;
+   grid-column: 1;
+   grid-row: 1 / span 3;
+   
+}
+.deux{
+   background-color: whitesmoke;
+   grid-column: 2/ span 8;
+}
+.trois{
+   background-color: blue;
+   grid-column: 2 / span 8;
+   grid-row: 2/span 2;
+
+}
+.quatre{
+   background-color: whitesmoke;
+   grid-column: 10 /span 8; 
+   grid-row: 1;
+}
+.cinque{
+   background-color: whitesmoke;
+   grid-column: 17;
+   grid-row: 1 /8;
+}
+.six{
+   background-color: yellow;
+   grid-column: 18;
+   grid-row: 1/8;
+}
+.sept{
+   background-color: whitesmoke;
+   grid-column:10 /span 3;
+   grid-row: span 2;
+}
+.huit{
+   background-color: blue;
+   grid-row: span 2;
+   grid-column: 13 /span 4;
+}
+.neuf{
+   background-color: black;
+   grid-row: 4 / span 6;
+}
+.dix{
+   background-color: whitesmoke;
+   grid-column:2 /span 3;
+   grid-row: 4/ span 6  ;
+}
+.onze{
+   background-color: black;
+   grid-column:5 ;
+   grid-row:4 / span 10;
+}
+.douze{
+   background-color: whitesmoke;
+   grid-column: 6 /span 3 ;
+   grid-row: 4 /span 4;
+}
+.treize{
+   background-color: whitesmoke;
+   grid-column: 9;
+   grid-row: 4 /span 4;
+}
+.quatorze{
+   background-color: yellow;
+   grid-column:10 /span 3;
+   grid-row: span 4;
+}.quinze{
+   background-color: red;
+   grid-row: span 4;
+   grid-column: 13 /span 3;
+}
+.seize{
+   background-color: red;
+   grid-column: 16 ;
+   grid-row: span 4;
+}
+.dsept{
+   background-color: whitesmoke;
+   grid-row: 10 /span 4;
+}
+.dhuit{
+   background-color: red;
+   grid-column: 2 /span 3;
+   grid-row: 10 /span 4;
+}
+.dneuf{
+   background-color: whitesmoke;
+   grid-row: 14;
+   grid-column: 1 /span 5;
+}
+.vingts{
+   background-color: yellow;
+   grid-row: 8 /span 2;
+   grid-column: 6 ;
+}
+.vun{
+   background-color: yellow;
+   grid-column: 6;
+   grid-row: 10 /span 5;
+}
+.vdeux{
+   background-color: red ;
+   grid-column: 7 /span 3;
+   grid-row:span 2;
+}
+.vtrois{
+   background-color: blue;
+   grid-column: 10 / span 3;
+   grid-row: span 2;
+} 
+.vquatre{
+   background-color: whitesmoke;
+   grid-column: 13 /span 3;
+   grid-row: span 2;
+} 
+.vcinque{
+   background-color: whitesmoke;
+   grid-column: 16 ;
+   grid-row: span 2;
+}  
+.vsix{
+   background-color: black;
+   grid-column: 17 /span 2;
+   grid-row: span 2;
+}
+.vsept{
+   background-color: red;
+   grid-column: 7 /span 3 ;
+   grid-row: 13 /span 2 ;
+}
+.vhuit{
+   background-color: whitesmoke;
+   grid-column: 7 /span 5;
+   grid-row: span 3;
+}
+.vneuf{
+   background-color: whitesmoke;
+   grid-column: 12 /span 2;
+   grid-row: span 3;
+}  
+.treinte{
+   background-color: black;
+   grid-column: 10 /span 4;
+   grid-row: span 2;
+}
+.tun{
+   background-color: blue;
+   grid-column: 14 /span 2;
+   grid-row: 10 /span 3;
+} 
+.tdeux{
+   background-color: yellow;
+   grid-column: 16;
+   grid-row:10 / span  3;
+}
+.ttrois{
+   background-color: whitesmoke;
+   grid-column: 17 / span 2;
+   grid-row: 10 /span 3;
+}
+.tquatre{
+   background-color: whitesmoke;
+   grid-column: 14 /span 6;
+   grid-row: span 2;
+}
+
+
